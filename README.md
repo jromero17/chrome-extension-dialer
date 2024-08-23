@@ -36,3 +36,8 @@ npm run build
 - Gestionar extensiones
 - Elija cargar descomprimida (busque la carpeta clonada y ya compilada a traves de npm run build)
 - Seleccione la carpeta "dist" que se creo como resultado de ejecutar npm run build.
+
+<p float="left">
+  <img src="./images/extension_navegador_chrome_webrtc_phone1.png" width="100" />
+  <img src="./images/extension_navegador_chrome_webrtc_phone2.png" width="100" />
+</p>
