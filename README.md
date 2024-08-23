@@ -40,4 +40,6 @@ npm run build
 <p float="left">
   <img src="./images/extension_navegador_chrome_webrtc_phone1.png" width="100" />
   <img src="./images/extension_navegador_chrome_webrtc_phone2.png" width="100" />
+  <img src="./images/config_Jambonz_Webphone_con_asterisk_freepbx.png" width="100" />
+  <img src="./images/dialer_Jambonz_Webphone_con_asterisk_freepbx.png" width="100" />  
 </p>
