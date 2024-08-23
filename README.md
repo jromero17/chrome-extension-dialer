@@ -1,6 +1,6 @@
-# Jambonz Webrtc Chrome extension dialer
+# Jambonz Webrtc Chrome extension dialer 
 
-The Jambonz WebRTC Chrome Extension Dialer is an easy-to-use browser extension that enables seamless WebRTC communication. With this extension, users can initiate voice calls directly from their web browsers without requiring additional software or hardware. It leverages Jambonz's open-source platform capabilities to handle VoIP communication with high quality and reliability. This extension is perfect for those who require frequent online communications, offering a streamlined experience with quick dialing features.
+El Jambonz WebRTC Chrome Extension Dialer es una extensión de navegador fácil de usar que permite una comunicación WebRTC perfecta. Con esta extensión, los usuarios pueden iniciar llamadas de voz directamente desde sus navegadores web sin necesidad de software o hardware adicionales. Aprovecha las capacidades de plataforma de código abierto de Jambonz para manejar la comunicación VoIP con alta calidad y fiabilidad. Esta extensión es perfecta para aquellos que requieren comunicaciones en línea frecuentes, ofreciendo una experiencia aerodinácica con características de marcación rápida.
 
 ## Overview of the extension
 
@@ -11,10 +11,14 @@ The Jambonz WebRTC Chrome Extension Dialer is an easy-to-use browser extension t
 </p>
 
 ## How to build and install
+## Cómo construir e instalar
 
-### Build
+### Construir
 
 ```
+git clone https://github.com/jambonz/chrome-extension-dialer.git
+cd chrome-extension-dialer
+npm install
 npm run build
 ```
 
@@ -24,3 +28,11 @@ npm run build
 - Open Extensions --> Manage Extensions
 - Choose Load Unpacked
 - Browse to dist folder which is the result of npm run build command.
+
+### Instalar (En español)
+
+- Abrir Chrome/Egde
+- Abrir Extensiones
+- Gestionar extensiones
+- Elija cargar descomprimida (busque la carpeta clonada y ya compilada a traves de npm run build)
+- Seleccione la carpeta "dist" que se creo como resultado de ejecutar npm run build.
