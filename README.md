@@ -19,6 +19,8 @@ El Jambonz WebRTC Chrome Extension Dialer es una extensión de navegador fácil 
 git clone https://github.com/jambonz/chrome-extension-dialer.git
 cd chrome-extension-dialer
 npm install
+npm audit fix
+npm audit fix --force
 npm run build
 ```
 
